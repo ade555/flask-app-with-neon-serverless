@@ -6,7 +6,7 @@ from flask_sqlalchemy import SQLAlchemy
 load_dotenv()
 
 app = Flask(__name__)
-url = os.getenv('URL')
+url = os.getenv('BRANCHED_URL')
 
 app.config["SQLALCHEMY_DATABASE_URI"]=url
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
