@@ -12,7 +12,7 @@ git clone https://github.com/ade555/flask-app-with-neon-serverless.git
 
 ### Step 2: Set up Environment Variables
 In the root directory, create a file called `.env`.
-Next, copy the variable names in the `env_sample` and replace the values with your database url and branched database url from [Neon](https://neon.tech/). 
+Next, copy the variable names in the `env_sample` file, and replace the values with your database url and branched database url from [Neon](https://neon.tech/). 
 
 ## Running The Project
 You can run the project by typing this command in your CLI:
